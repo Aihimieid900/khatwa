@@ -649,3 +649,7 @@ font-size: 28px;
                 font-size: 16px!important;
               }
       }
+      @media (max-width:570px){
+        .owl-carousel .owl-nav button.owl-prev{left: -15px!important}
+        .owl-carousel .owl-nav button.owl-next{right: -15px!important;}
+      }
