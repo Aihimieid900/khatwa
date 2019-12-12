@@ -57,9 +57,9 @@
                        <div class="input-group-prepend p-0">
                           <span class="input-group-text" id="addon-wrapping"><i class="fas fa-search"></i></span>
                        </div>
-                    <input type="text" class="form-control col-md-10  pr-0" placeholder="جرب: 'كتابة محتوي وتأليف' " aria-label="بحث خدمات عمل عن بعد وردبريس" aria-describedby="button-addon1">
+                    <input type="text" class="form-control col-md-10  pr-0 font-noto-r" placeholder="جرب: 'كتابة محتوي وتأليف' " aria-label="بحث خدمات عمل عن بعد وردبريس" aria-describedby="button-addon1">
                         <div class="input-group-append col-md-2 p-0 d-none d-md-block">
-                          <button class="btn btn-block btn-danger" type="button" id="search">بحث</button>
+                          <button class="btn btn-block btn-danger font-noto-r" type="button" id="search">بحث</button>
                         </div>
                       </div>
                       <button class="btn btn-danger d-block d-md-none btn-block font-noto-b" type="button" id="search">بحث</button>
@@ -73,10 +73,10 @@
         <!-- هذه الجزء بالخدمات المميزة --> 
       <section>
         <div class="container ">
-          <div class="services text-right">
+          <div class="services text-right mt-5">
             <h1 calss="h1">خدمات مميزة</h1>
 <!-- هذه الجزء خاص بالتنقل بين الخدمات يمين وشمال -->
-          <div class=" owl-carousel left-to">
+          <div class=" owl-carousel left-to mt-5">
               <div class=" service ">
                 <img  src="img/service-programmer.jpeg" class="d-block w-100" alt="service-programmer">
                 <div class="overlay-service position-absolute  d-flex align-items-end">
@@ -416,6 +416,15 @@
   <script src="js/owl.carousel.min.js"></script>
 <script>
   $(function(){
+    var lastScrollTop = 20;
+$(window).scroll(function(event){
+   var st = $(this).scrollTop();
+   if (st > lastScrollTop){
+       $('.navbar').addClass('bg-light position-fixed');
+   } else if (st < lastScrollTop) {
+    $('.navbar').removeClass('bg-light position-fixed');
+   }
+});
     $(".owl-carousel").owlCarousel({
       navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
       rtl:true,
