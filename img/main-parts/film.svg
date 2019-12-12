@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50.413" height="44.46" viewBox="0 0 50.413 44.46">
+  <g id="film" transform="translate(0 -30.23)">
+    <rect id="Rectangle_119" data-name="Rectangle 119" width="31.917" height="32.75" transform="translate(9.248 36.121)" fill="#fe5754"/>
+    <rect id="Rectangle_120" data-name="Rectangle 120" width="15.959" height="32.75" transform="translate(25.207 36.121)" fill="#fe5754"/>
+    <path id="Path_592" data-name="Path 592" d="M7.383,30.23v5.891H2.954V30.23H0V74.69H2.954V68.8H7.383V74.69h2.954V30.23Zm0,8.844v7.182H2.954V39.075ZM2.954,49.211H7.383v6.5H2.954Zm0,16.635V58.663H7.383v7.182Z" fill="#aeadb3"/>
+    <path id="Path_593" data-name="Path 593" d="M407.022,30.23V74.69h2.954V68.8H414.4V74.69h2.954V30.23H414.4v5.891h-4.429V30.23Zm7.383,8.844v7.182h-4.429V39.075Zm0,16.635h-4.429v-6.5H414.4Zm-4.429,10.136V58.663H414.4v7.182Z" transform="translate(-366.945)" fill="#818085"/>
+    <path id="Path_594" data-name="Path 594" d="M200.985,185.046l-13.491,7.789V177.257Z" transform="translate(-169.033 -132.55)" fill="#fff"/>
+    <path id="Path_595" data-name="Path 595" d="M256,216.809V224.6l6.745-3.894Z" transform="translate(-230.793 -168.208)" fill="#fff"/>
+  </g>
+</svg>

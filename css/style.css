@@ -174,7 +174,10 @@ font-weight:bold
 .search-box-container .search-box-parent .input-group .form-control{background-color:#F2F2F2}
 .search-box-container .search-box-parent .input-group .btn{width:100}
 /* جزء الخاص بالخدمات المميزة */
+/* هنا يوجد بعد خصائص الاقسام الرئيسية */
+.main-parts,
 .services{margin-top:50px;margin-bottom:30px;}
+.main-parts h1, 
 .services h1{
 font-family: Noto Kufi Arabic;
 font-size:1.5rem;
@@ -271,6 +274,44 @@ text-align: center;
 }
 .services .carousel .carousel-control-prev-icon .svg-inline--fa,
 .services .carousel .carousel-control-next-icon .svg-inline--fa{height:0.75em}
+
+/* هذا الجزء خاص الاقسام الرئيسية */
+.main-parts .main-part{
+  padding-top:50px; 
+  padding-bottom:40px 
+}
+.main-parts .main-part,
+.main-parts .main-part .heading-main-part::before,
+.main-parts .main-part .heading-main-part{
+  transition: 0.3s ease-in-out all;
+  -webkit-transition: 0.3s ease-in-out all;
+  -moz-transition: 0.3s ease-in-out all;
+  -ms-transition: 0.3s ease-in-out all;
+  -o-transition: 0.3s ease-in-out all;
+}
+.main-parts .main-part:hover{
+  background-color: #fff;
+box-shadow: 3px 5px 15px #665ada42;
+}
+.main-parts .main-part .heading-main-part::before{
+  content:' ';
+  display: block;
+  border-bottom:1px solid #707070;
+  width:22%;
+  margin: 12px auto;
+  height:100%;
+
+}
+.main-parts .main-part:hover .heading-main-part::before{
+  width:60%;
+  border-color:var(--main-color)
+}
+.main-parts .main-part:hover .heading-main-part{
+  color:#000!important;
+}
+.main-parts .main-part .heading-main-part{
+  font-size:14px;
+}
 
 /* هذا الجزء خاص البانر خطوة */
 .panner{
