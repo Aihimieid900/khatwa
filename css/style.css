@@ -40,6 +40,19 @@ input[type=number]:focus,
   font-family: 'NotoNaskhArabicUI';
   src: url('/webfonts/NotoNaskhArabicUI-Regular.ttf');
 }
+.font-noto-r{
+  font-family: Noto Kufi Arabic;
+}
+.font-noto-b{
+  font-family: Noto Kufi Arabic;
+  font-weight: bold;
+}
+.mb-75{
+margin-bottom: 75px;
+}
+.color-main{
+  color:var(--main-color)
+}
 /* الجزء الخاص بتعديل تنسيق كلاسات مهينة في البوتستراب */
 text-muted{color:var(--color-gray)!important;}
 .btn-info,.btn-info:focus{
@@ -177,7 +190,7 @@ color:var(--color-gray)
 .services .carousel .carousel-inner .carousel-item .service{
   overflow: hidden!important;
   color:#fff;
-  box-shadow:3px 3px 15px  rgba(0,0,0,0.16);
+  box-shadow:0 5px 15px  rgba(0,0,0,0.36);
   font-family: Noto Kufi Arabic;
   transition: 0.2s ease-in-out all;
   -webkit-transition: 0.2s ease-in-out all;
@@ -258,6 +271,61 @@ text-align: center;
 }
 .services .carousel .carousel-control-prev-icon .svg-inline--fa,
 .services .carousel .carousel-control-next-icon .svg-inline--fa{height:0.75em}
+
+/* هذا الجزء خاص البانر خطوة */
+.panner{
+  background:url('../img/adult-books-business-coffee-374016.png') 100% 100% no-repeat;
+  background-size:cover;
+  height:250px;
+}
+.inner-panner{
+width:100%;
+height:100%;
+background-color: #70707095;
+top:0;
+bottom:0;
+right:0;
+left:0;
+}
+.panner .inner-panner .panner-text{
+  padding: 50px;
+}
+.panner .inner-panner .panner-text .btn{
+  width:150px;
+  height:48px;
+  font-size: 20px ;
+}
+.panner .inner-panner img{
+width:136px;
+}
+.panner .lead{
+  color:#fff!important;
+}
+.panner .lead:before{
+  content: ' ';
+  margin-right:10px;
+  display:inline;
+  border-left: 3px solid var(--main-color);
+  color:#fff!important;
+}
+
+/* هذا الجزء خاص  مميزات خطوة */
+.fearures{
+  background:url('../img/Path\ 596.svg') 100% 100% no-repeat;
+  background-size:cover;
+  height:477px; 
+  padding:50px;
+  margin:50px 0 60px;
+}
+.fearures .h3{
+  background:url('../img/Clouds.svg') 100% 100% no-repeat;
+  color:var(--color-gray);
+  font-family: Noto Kufi Arabic;
+  font-weight:bold
+}
+.fearures .lead{
+  font-size:16px;
+}
 /* هذا الجزء خاص بالفوتر */
 .footer-parent{
   font-family: Noto Kufi Arabic;
