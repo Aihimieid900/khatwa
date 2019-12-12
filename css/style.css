@@ -55,6 +55,9 @@ margin-bottom: 75px;
 }
 /* الجزء الخاص بتعديل تنسيق كلاسات مهينة في البوتستراب */
 text-muted{color:var(--color-gray)!important;}
+text-gray{
+  color:#A0A0A0!important;
+}
 .btn-info,.btn-info:focus{
   background-color:#fff;
   border:0;
@@ -175,8 +178,10 @@ font-weight:bold
 .search-box-container .search-box-parent .input-group .btn{width:100}
 /* جزء الخاص بالخدمات المميزة */
 /* هنا يوجد بعد خصائص الاقسام الرئيسية */
+.why-about,
 .main-parts,
 .services{margin-top:50px;margin-bottom:30px;}
+.why-about h1,
 .main-parts h1, 
 .services h1{
 font-family: Noto Kufi Arabic;
@@ -318,7 +323,18 @@ box-shadow: 3px 5px 15px #665ada42;
   margin:30px auto;
   box-shadow: 0 3px 20px #665ada42;
 }
-
+/* هذا الجزء خاص بالاقسام الرئيسية انتهي  */
+.why-about .lead
+{
+font-size:14px;
+margin-bottom:50px;
+}
+.why-about .text-why .h4{
+  font-size:18px;
+}
+.why-about .text-why p{
+  font-size:14px;
+}
 /* هذا الجزء خاص البانر خطوة */
 .panner{
   background:url('../img/adult-books-business-coffee-374016.png') 100% 100% no-repeat;
@@ -348,6 +364,8 @@ width:136px;
 .panner .lead{
   color:#fff!important;
 }
+/* هنا يوجد بعد خصائص لماذا خطوة */
+.why-about .lead:before,
 .panner .lead:before{
   content: ' ';
   margin-right:10px;
