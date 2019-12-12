@@ -312,6 +312,12 @@ box-shadow: 3px 5px 15px #665ada42;
 .main-parts .main-part .heading-main-part{
   font-size:14px;
 }
+.main-parts .btn{
+  width:150px;
+  height:48px;
+  margin:30px auto;
+  box-shadow: 0 3px 20px #665ada42;
+}
 
 /* هذا الجزء خاص البانر خطوة */
 .panner{
@@ -352,7 +358,7 @@ width:136px;
 
 /* هذا الجزء خاص  مميزات خطوة */
 .fearures{
-  background:url('../img/Path\ 596.svg') 100% 100% no-repeat;
+  background:url('../img/Path\ 596.svg') 100% 10% no-repeat;
   background-size:cover;
   height:477px; 
   padding:50px;
