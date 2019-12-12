@@ -572,9 +572,13 @@ border-bottom:1px solid #707070;
   .navbar-nav .nav-item:hover{
     color:var(--color-gray);
   }
-  .navbar-toggler-icon{
+  .bg-light .navbar-toggler-icon{
     background: none;
     color:var(--main-color);
+  }
+.navbar-toggler-icon{
+    background: none;
+    color:#fff
   }
 
   .navbar-collapse{
