@@ -168,7 +168,6 @@ right-to {
 	border-bottom: 1px solid var(--main-color);
 }
 .navbar-nav .btn-danger {
-	padding: 0 8px;
 	border-radius: 3px;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
