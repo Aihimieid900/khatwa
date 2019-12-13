@@ -1,3 +1,8 @@
+$(window).on("load",function () {
+	'use strict';
+	$("body").css("overflow-y", "auto");
+	$(".loading").fadeOut(2000);
+});
 $(function() {
 	var lastScrollTop = 20;
 	$(window).scroll(function(event) {
