@@ -45,18 +45,43 @@ input[type=number]:focus,
 	font-family: 'NotoNaskhArabicUI';
 	src: url('/webfonts/NotoNaskhArabicUI-Regular.ttf');
 }
-.font-noto-r {
+.font-noto-r,
+.font-noto-b,
+.navbar-nav .nav-item,
+.search-box-parent .h1,
+.services .service,
+.why-about h1,
+.main-parts h1,
+.services h1,
+.fearures .h3,
+.footer-parent,
+.copyright {
 	font-family: Noto Kufi Arabic;
 }
 .font-noto-b {
-	font-family: Noto Kufi Arabic;
 	font-weight: bold;
 }
 .mb-75 {
 	margin-bottom: 75px;
 }
-.color-main {
+.color-main,
+.btn-info,
+.btn-info:focus,
+.bg-light .navbar-toggler-icon,
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.copyright .privacy .list-group .list-group-item:hover,
+.footer-parent .links-all .list-group-item:hover,
+.footer-parent .payments .list-group-item:hover,
+.footer-parent .social .list-group-item:hover {
 	color: var(--main-color);
+}
+.main-parts .main-part .heading-main-part,
+.why-about .lead,
+.why-about .text-why p,
+.footer-parent .paragraph-about,
+.footer-parent .list-group .list-group-item {
+	font-size: 14px;
 }
 /* الجزء الخاص بتعديل تنسيق كلاسات مهينة في البوتستراب */
 text-muted {
@@ -75,7 +100,6 @@ text-muted {
 .btn-info:focus {
 	background-color: var(--color-white);
 	border: 0;
-	color: var(--main-color);
 	border-radius: 0;
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
@@ -100,14 +124,26 @@ right-to {
 }
 
 /* الجزء الخاص بتعديل تنسيق النافبار */
+.background,
+.navbar,
+.navbar-nav .nav-item.active::after,
+.navbar-nav .nav-item:not(:last-child):hover::after,
+.background .person img,
+.search-box-container .search-box-parent .btn-block,
+.services .overlay-service,
+.services .service img,
+.search-box-container .search-box-parent .input-group,
+.search-box-container .search-box-parent .input-group .form-control,
+.search-box-container .search-box-parent .input-group .btn,
+.inner-panner {
+	width: 100% !important;
+}
 .background {
-	width: 100%;
 	height: 580px;
 	background: url('../img/Background.svg') 100%100% no-repeat;
 	background-size: cover;
 }
 .navbar {
-	width: 100%;
 	z-index: 999;
 }
 .bg-light,
@@ -141,7 +177,6 @@ right-to {
 }
 .navbar-nav .nav-item {
 	color: rgba(98, 98, 98);
-	font-family: Noto Kufi Arabic;
 	font-weight: normal;
 	font-style: normal;
 	font-size: 15px;
@@ -157,16 +192,12 @@ right-to {
 	display: block;
 	margin: auto;
 }
+.navbar-nav .nav-item.active::after,
 .navbar-nav .nav-item:not(:last-child):hover::after {
-	width: 100%;
 	height: 38%;
 	border-bottom: 1px solid var(--main-color);
 }
-.navbar-nav .nav-item.active::after {
-	width: 100%;
-	height: 38%;
-	border-bottom: 1px solid var(--main-color);
-}
+.services .service img,
 .navbar-nav .btn-danger {
 	border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -177,49 +208,49 @@ right-to {
 /* هذه جزء الصور */
 .background .person img {
 	margin-top: 3.5rem;
-	width: 100%;
 	height: 80%;
 }
 
 /* تم الانتهاء من النافبار */
-.search-box-container {
-	top: 150px;
-}
+
 .search-box-parent {
 	top: 180px;
 }
 .search-box-parent .h1 {
 	color: var(--color-white);
-	font-family: Noto Kufi Arabic;
 	font-style: normal;
 	font-weight: bold;
 }
 .search-box-container .search-box-parent .input-group .form-control,
 .search-box-container .search-box-parent .input-group .btn {
-	border-radius: 0;
 	font-style: normal;
 	height: 48px;
 	outline: 0 !important;
 	border: 0;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
 }
 .search-box-container .search-box-parent .input-group {
 	margin-top: 20px;
 }
 .search-box-container .search-box-parent .input-group-text {
-	border-radius: 0;
 	background: #f2f2f2;
 	border: 0;
 	margin-left: -1px;
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
 }
 .search-box-container .search-box-parent .input-group .form-control {
 	background-color: #f2f2f2;
 }
-.search-box-container .search-box-parent .input-group .btn {
-	width: 100;
-}
 /* هنا تعديل الموبايل */
 .search-box-container .search-box-parent .btn-block {
-	width: 100%;
 	height: 48px;
 	font-size: 20px;
 }
@@ -234,23 +265,25 @@ right-to {
 }
 .why-about h1,
 .main-parts h1,
-.services h1 {
-	font-family: Noto Kufi Arabic;
-	font-size: 1.5rem;
+.services h1,
+.fearures .h3,
+.footer-parent .links,
+.copyright .privacy .list-group .list-group-item,
+.footer-parent .links-all .list-group-item,
+.footer-parent .payments .list-group-item,
+.footer-parent .social .list-group-item
+ {
 	color: var(--color-gray);
 }
-/* .services .carousel{
-  margin-top:30px;
-  height:336px;
+.why-about h1,
+.main-parts h1,
+.services h1 {
+	font-size: 1.5rem;
 }
-.services .carousel .carousel-inner .carousel-item{
-  height:336px;
-} */
 .services .service {
 	overflow: hidden !important;
 	color: var(--color-white);
 	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.36);
-	font-family: Noto Kufi Arabic;
 }
 /* .services .carousel .carousel-inner .carousel-item .service:first-child{
   margin-left:0!important
@@ -268,17 +301,10 @@ right-to {
 
 .services .service img {
 	height: 336px;
-	width: 100% !important;
-	border-radius: 3px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	-ms-border-radius: 3px;
-	-o-border-radius: 3px;
 }
 .services .overlay-service {
 	text-align: center;
 	color: var(--color-white);
-	width: 100%;
 	height: 336px;
 	background-color: #70707063;
 	top: 0;
@@ -298,9 +324,7 @@ right-to {
 .owl-carousel .owl-nav button.owl-next {
 	right: -25px;
 }
-.owl-carousel .owl-nav button.owl-next .Next {
-	color: var(--main-color);
-}
+
 .owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev {
 	z-index: 999;
@@ -308,7 +332,6 @@ right-to {
 	width: 45px;
 	height: 45px;
 	top: 46.5%;
-	color: var(--main-color);
 	font-size: 24px;
 	font-weight: bold;
 	transform: translate(0, -50%);
@@ -324,7 +347,6 @@ right-to {
 .services .carousel .carousel-control-next-icon,
 .services .carousel .carousel-control-prev-icon {
 	background-image: none !important;
-	color: var(--main-color);
 }
 .services .carousel .carousel-control-prev-icon .svg-inline--fa,
 .services .carousel .carousel-control-next-icon .svg-inline--fa {
@@ -361,9 +383,7 @@ right-to {
 .main-parts .main-part:hover .heading-main-part {
 	color: #000 !important;
 }
-.main-parts .main-part .heading-main-part {
-	font-size: 14px;
-}
+
 .main-parts .btn {
 	width: 150px;
 	height: 48px;
@@ -372,14 +392,10 @@ right-to {
 }
 /* هذا الجزء خاص بالاقسام الرئيسية انتهي  */
 .why-about .lead {
-	font-size: 14px;
 	margin-bottom: 50px;
 }
 .why-about .text-why .h4 {
 	font-size: 18px;
-}
-.why-about .text-why p {
-	font-size: 14px;
 }
 /* هذا الجزء خاص البانر خطوة */
 .panner {
@@ -388,7 +404,6 @@ right-to {
 	height: 250px;
 }
 .inner-panner {
-	width: 100%;
 	height: 100%;
 	background-color: #70707095;
 	top: 0;
@@ -430,8 +445,6 @@ right-to {
 }
 .fearures .h3 {
 	background: url('../img/Clouds.svg') 100% 100% no-repeat;
-	color: var(--color-gray);
-	font-family: Noto Kufi Arabic;
 	font-weight: bold;
 }
 .fearures .lead {
@@ -439,7 +452,6 @@ right-to {
 }
 /* هذا الجزء خاص بالفوتر */
 .footer-parent {
-	font-family: Noto Kufi Arabic;
 	padding: 50px 50px 30px;
 	background-color: rgba(255, 255, 255, 0.32);
 	box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.16);
@@ -458,14 +470,9 @@ right-to {
 	color: #a0a0a0;
 	margin: 20px auto;
 }
-.footer-parent .paragraph-about,
-.footer-parent .list-group .list-group-item {
-	font-size: 14px;
-}
 .footer-parent .links {
 	font-size: 18px;
 	font-weight: bold;
-	color: var(--color-gray);
 	margin-bottom: 20px;
 }
 .footer-parent .links:after {
@@ -486,18 +493,9 @@ right-to {
 .footer-parent .links-all .list-group-item,
 .footer-parent .payments .list-group-item,
 .footer-parent .social .list-group-item {
-	color: var(--color-gray);
 	margin-left: 12px;
 	cursor: pointer;
 	padding-top: 15px;
-}
-
-/* هذه الخصائص منها جزء حقوق الملكية */
-.copyright .privacy .list-group .list-group-item:hover,
-.footer-parent .links-all .list-group-item:hover,
-.footer-parent .payments .list-group-item:hover,
-.footer-parent .social .list-group-item:hover {
-	color: var(--main-color);
 }
 /*  هذا الجزء خاص بايقونة  مدي */
 .mada {
@@ -585,7 +583,6 @@ right-to {
 }
 /* هذه الجزء خاص بحقوق الملكية */
 .copyright {
-	font-family: Noto Kufi Arabic;
 	font-size: 12px;
 	padding: 30px 0 10px;
 	box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.16);
@@ -608,7 +605,6 @@ right-to {
 
 	.bg-light .navbar-toggler-icon {
 		background: none;
-		color: var(--main-color);
 	}
 	.navbar-toggler-icon {
 		background: none;
@@ -652,7 +648,6 @@ right-to {
 	}
 	.search-box-container .search-box-parent .input-group {
 		left: -18px;
-		width: 100% !important;
 	}
 	.search-box-container .search-box-parent .input-group-text {
 		background-color: var(--color-white);
@@ -660,7 +655,6 @@ right-to {
 		border-right: 0;
 	}
 	.search-box-container .search-box-parent .input-group .form-control {
-		width: 100%;
 		background-color: var(--color-white);
 		border: 1px solid #f2f2f2;
 		border-right: 0;
