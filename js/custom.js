@@ -19,7 +19,7 @@ $(function() {
 	$('.owl-carousel').owlCarousel({
 		navText: [ "<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>" ],
 		rtl: true,
-		margin: 20,
+		margin: 36,
 		loop: true,
 		responsiveClass: true,
 		nav: true,

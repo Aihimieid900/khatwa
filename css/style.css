@@ -199,11 +199,11 @@ right-to {
 }
 .services .service img,
 .navbar-nav .btn-danger {
-	border-radius: 3px;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	-ms-border-radius: 3px;
-	-o-border-radius: 3px;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
 }
 /* هذه جزء الصور */
 .background .person img {
@@ -281,13 +281,17 @@ right-to {
 	font-size: 1.5rem;
 }
 .services .service {
+	position: relative;
 	overflow: hidden !important;
 	color: var(--color-white);
-	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.36);
+	height:300px;
+	box-shadow: 0 5px 15px  #70707076;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
 }
-/* .services .carousel .carousel-inner .carousel-item .service:first-child{
-  margin-left:0!important
-} */
 .services .service:hover {
 	opacity: 0.76;
 }
@@ -298,25 +302,26 @@ right-to {
 	-ms-transform: scale(1.1, 1.1);
 	-o-transform: scale(1.1, 1.1);
 }
-
 .services .service img {
-	height: 336px;
+	height: 100%;
 }
 .services .overlay-service {
 	text-align: center;
 	color: var(--color-white);
-	height: 336px;
+	height:100%;
 	background-color: #70707063;
 	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
 	display: block;
-	padding-bottom: 20px !important;
+	padding-top: 30px !important;
 	padding-right: 10px !important;
+
 }
 .overlay-service .h5 {
 	font-size: 18px !important;
+	font-weight: bold!important;	
 }
 .owl-carousel .owl-nav button.owl-prev {
 	left: -25px;
@@ -336,13 +341,16 @@ right-to {
 	font-weight: bold;
 	transform: translate(0, -50%);
 	background-color: var(--color-white);
-	box-shadow:1px 2px 17px 7px #665ada42;
+	box-shadow:1px 2px 17px 2px #70707076;
 	border-radius: 100px;
 	-webkit-border-radius: 100px;
 	-moz-border-radius: 100px;
 	-ms-border-radius: 100px;
 	-o-border-radius: 100px;
 	opacity: 1 !important;
+}
+.owl-carousel .owl-stage-outer{
+	height:310px!important;
 }
 .services .carousel .carousel-control-next-icon,
 .services .carousel .carousel-control-prev-icon {
