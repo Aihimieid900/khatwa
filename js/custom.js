@@ -34,6 +34,10 @@ $(function() {
 				items: 3,
 				slideBy: 3
 			},
+			970: {
+				items: 4,
+				slideBy: 4
+			},
 			1000: {
 				items: 5,
 				slideBy: 5
