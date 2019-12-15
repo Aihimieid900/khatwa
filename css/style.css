@@ -58,13 +58,19 @@ input[type=number]:focus,
 .navbar-nav .nav-item,
 .search-box-parent .h1,
 .services .service,
+.footer-parent,
+.paragraph-about,
+.copyright {
+  font-family: 'Cairo-Regular';
+}
+.font-noto-b,
 .why-about h1,
 .main-parts h1,
 .services h1,
 .fearures .h3,
-.footer-parent,
-.copyright {
-  font-family: 'Cairo-Regular';
+.h4,
+.h5{
+  font-family: 'Tajawal-Bold';
 }
 .font-noto-b {
 	font-weight: bold;
@@ -182,7 +188,7 @@ right-to {
 }
 .navbar-nav .nav-item {
 	color: rgba(98, 98, 98);
-	font-weight: normal;
+	font-weight: bold;
 	font-style: normal;
 	font-size: 15px;
 }
