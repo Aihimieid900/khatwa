@@ -54,15 +54,14 @@ input[type=number]:focus,
 	src: url('/webfonts/Tajawal-Regular.ttf');
 }
 .font-noto-r,
-.font-noto-b,
 .navbar-nav .nav-item,
-.search-box-parent .h1,
 .services .service,
 .footer-parent,
 .paragraph-about,
 .copyright {
   font-family: 'Cairo-Regular';
 }
+.search-box-parent .h1,
 .font-noto-b,
 .why-about h1,
 .main-parts h1,
@@ -154,6 +153,7 @@ right-to {
 	background: url('../img/Background.svg') 100%100% no-repeat;
 	background-size: cover;
 }
+
 .navbar {
 	z-index: 999;
 }
@@ -685,7 +685,8 @@ right-to {
 	.copyright .privacy .list-group-item {
 		font-size: .66rem;
 		padding-bottom: 5px;
-	}
+  }
+
 }
 @media screen and (min-device-width: 780px) and (max-device-width: 900px) {
 	.search-box-container .search-box-parent .h1 {
@@ -742,4 +743,65 @@ right-to {
 	100% {
 		transform: rotate(360deg);
 	}
+}
+@media (max-width:750px){
+  .person{
+    display:none;
+      }
+    }
+    @media screen and (min-width: 756px) and (max-width: 1266px) {
+  .person{
+    background: url('../img/teamWorkHeader.svg') -20% 0% no-repeat;
+    margin-top: 4.5rem;
+    margin-right: 1.5rem;
+    width: 60%;
+    display: block;
+    top: 0;
+    right: 40%;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+  }
+}
+    @media screen and (min-width: 1250px) and (max-width: 1620px) {
+  .person{
+    background: url('../img/teamWorkHeader.svg') 10% 0% no-repeat;
+    margin-top: 4.5rem;
+    margin-right: 1.5rem;
+    width: 100%;
+    display: block;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+  }
+}
+    @media screen and (min-width: 169px) and (max-width: 1920px) {
+  .person{
+    background: url('../img/teamWorkHeader.svg') 15% 0% no-repeat;
+    margin-top: 4.5rem;
+    margin-right: 1.5rem;
+    width: 100%;
+    display: block;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+  }
+}
+    @media  (min-width: 1920px) {
+  .person{
+    background: url('../img/teamWorkHeader.svg') 38% 0% no-repeat;
+    margin-top: 4.5rem;
+    margin-right: 1.5rem;
+    width: 100%;
+    display: block;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+  }
 }
