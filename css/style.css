@@ -75,9 +75,10 @@ input[type=number]:focus,
 .main-parts h1,
 .services h1,
 .fearures .h3,
+.footer-parent .bottom-about,
 .h4,
 .h5{
-  font-family: 'Tajawal-Bold', 'Noto Kufi Arabic';
+  font-family: 'Tajawal-Bold', Noto Kufi Arabic;
 }
 .font-noto-b {
 	font-weight: bold;
@@ -176,7 +177,8 @@ right-to {
 .copyright .privacy .list-group .list-group-item,
 .footer-parent .links-all .list-group-item,
 .footer-parent .payments .list-group-item,
-.footer-parent .social .list-group-item {
+.footer-parent .social .list-group-item,
+.footer-parent .bottom-about li {
 	transition: .25s ease-in-out all;
 	-webkit-transition: .25s ease-in-out all;
 	-moz-transition: .25s ease-in-out all;
@@ -295,7 +297,7 @@ right-to {
 	overflow: hidden !important;
 	color: #fff;
 	height: 300px;
-	box-shadow: 0 5px 15px #70707076;
+	box-shadow: 0 5px 20px 2px #70707076;
 	border-radius: 4px;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
@@ -586,6 +588,12 @@ right-to {
 	background: transparent;
 	border: 0;
 }
+.maroof{
+	margin-top:15px;
+	width:192px;
+	display: inline-block;
+	margin-right:-36px;
+}
 .footer-parent .footer-logo-up-to .up-to {
 	width: 50px;
 	height: 50px;
@@ -686,6 +694,12 @@ right-to {
 	.footer-parent .paragraph-about,
 	.footer-parent .list-group .list-group-item {
 		font-size: 12px;
+	}
+	.footer-parent .bottom-about li{
+		margin-right: 12px;
+	}
+	.footer-parent .bottom-about li:hover{
+		margin-top: -3px;
 	}
 	.copyright .lead {
 		font-size: .66rem;

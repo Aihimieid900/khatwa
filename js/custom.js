@@ -9,5 +9,4 @@ $(function(){
   $(".mada").mouseleave(function(){$("#ID8_1535595314 rect,#ID8_1535595314 path").css({fill:"#303030"})});
   $(".up-to").click(function(){$("html,body").animate({scrollTop:"0"},2500)});
   $(".nav-item").click(function(){$(this).addClass("active").siblings().removeClass("active")})
-
 });
