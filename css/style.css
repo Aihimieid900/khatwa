@@ -9,7 +9,7 @@
 	color: #fff;
 	background: #fe5754;
 }
-html {
+html,body {
 	overflow-x: hidden;
 }
 body {
@@ -501,6 +501,8 @@ right-to {
 }
 .footer-parent .links-all {
 	cursor: pointer;
+	max-width:150px;
+	margin:auto
 }
 .copyright .privacy .list-group .list-group-item,
 .footer-parent .links-all .list-group-item,
@@ -589,10 +591,9 @@ right-to {
 	border: 0;
 }
 .maroof{
-	margin-top:15px;
-	width:192px;
-	display: inline-block;
-	margin-right:-36px;
+	margin:auto;
+	width:252px;
+	display: block;
 }
 .footer-parent .footer-logo-up-to .up-to {
 	width: 50px;
@@ -611,6 +612,9 @@ right-to {
 }
 .copyright .privacy .list-group .list-group-item {
 	margin-right: 12px;
+}
+.made{
+	font-weight: bold;
 }
 @media (max-width: 991px) {
 	.background {
