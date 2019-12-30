@@ -71,9 +71,9 @@ input[type=number]:focus,
 }
 .search-box-parent .h1,
 .font-noto-b,
-.why-about h1,
-.main-parts h1,
-.services h1,
+.why-about .h1,
+.main-parts .h1,
+.services .h1,
 .fearures .h3,
 .footer-parent .bottom-about,
 .h4,
@@ -287,9 +287,9 @@ right-to {
 .footer-parent .social .list-group-item {
 	color: #303030;
 }
-.why-about h1,
-.main-parts h1,
-.services h1 {
+.why-about .h1,
+.main-parts .h1,
+.services .h1 {
 	font-size: 1.5rem;
 }
 .services .service {
