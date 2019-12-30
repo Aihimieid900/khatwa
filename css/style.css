@@ -390,6 +390,17 @@ right-to {
 	margin: 12px auto;
 	height: 100%;
 }
+.western{
+	width:35px;
+	height:30px;
+}
+.western img{
+	width:100%;
+	height:100%;
+	filter: invert(10%);
+	-webkit-filter: invert(10%);
+}
+	
 .main-parts .main-part:hover .heading-main-part::before {
 	width: 60%;
 	border-color: #fe5754;
